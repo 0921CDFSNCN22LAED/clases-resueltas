@@ -1,0 +1,30 @@
+[
+ {
+  "titulo": "Estudiar objetos literales",
+  "estado": "pendiente"
+ },
+ {
+  "titulo": "Estudiar json",
+  "estado": "pendiente"
+ },
+ {
+  "titulo": "Cocinar para comer",
+  "estado": "pendiente"
+ },
+ {
+  "titulo": "limpiar el baño",
+  "estado": "pendiente"
+ },
+ {
+  "titulo": "limpiar el estudio",
+  "estado": "pendiente"
+ },
+ {
+  "titulo": "limpiar el estudio más",
+  "estado": "pendiente"
+ },
+ {
+  "titulo": "limpiar el estudio de una vez, mugriento",
+  "estado": "pendiente"
+ }
+]
