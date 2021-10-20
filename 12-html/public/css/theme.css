@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #ebebeb;
+    font-size: 12px;
+}
+
+.bg-yellow {
+    background-color: #eac926;
+}
+
+.bg-light-gray {
+    background-color: #ebebeb;
+}
+
+.bg-dark-gray {
+    background-color: #666;
+}
+
+.font-color-blue {
+    color: red;
+}
+
+.font-small {
+    font-size: 12px;
+}
+
+.font-heading {
+    font-size: 24px;
+}
