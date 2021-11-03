@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrate</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/css/theme.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/styles-tablet.css">
+
+    <link rel="stylesheet" href="/css/forms.css">
+    <link rel="stylesheet" href="/css/forms-tablet.css">
+    <link rel="stylesheet" href="/css/forms-desktop.css">
+</head>
+
+<body>
+    <header class="bg-yellow p">
+        <section class="top-nav">
+            <h1 class="w-50">
+                <a href="/">
+                    <img src="/images/logo-mercado-liebre.svg" alt="Mercado Liebre">
+                </a>
+            </h1>
+            <div class="search-bar w-50">
+                <input type="text">
+                <button>
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <p class="text-center pv">
+                <i class="fas fa-hand-holding-usd"></i>
+                Comprá en cuotas y sin tarjeta de crédito
+            </p>
+        </section>
+        <nav class="navbar">
+            <ul>
+                <li><a href="">Ofertas</a></li>
+                <li><a href="">Tiendas Oficiales</a></li>
+                <li><a href="">Ayuda</a></li>
+            </ul>
+            <ul>
+                <li><a href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+                <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="">Mis Compras <i class="fas fa-shopping-basket"></i></a></li>
+            </ul>
+        </nav>
+        <div class="burger-menu bg-blue">
+            <i class="fas fa-bars text-light"></i>
+        </div>
+    </header>
+    <form action="/register-receive-data">
+        <label for="nombre" style="display: none;">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+        <button>Enviar!</button>
+    </form>
+</body>
+
+</html>

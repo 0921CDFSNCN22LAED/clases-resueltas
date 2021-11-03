@@ -1,0 +1,95 @@
+/* ESTILOS GENERICOS*/
+
+.w-100 {
+    width: 100%;
+}
+.w-50 {
+    width: 50%;
+}
+
+.p {
+    padding: 16px;
+}
+
+.pt {
+    padding-top: 16px;
+}
+
+.pv {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.b {
+    border-width: 1px;
+    border-style: solid;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* ESTILOS HEADER // FOOTER */
+
+.top-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.top-nav .search-bar {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    position: relative;
+    height: 45px;
+}
+
+.top-nav .search-bar input {
+    border-radius: 5px;
+    flex-grow: 1;
+    background-color: white;
+    border: none;
+    max-width: 400px;
+}
+
+.top-nav .search-bar button {
+    position: absolute;
+    background-color: white;
+    border: none;
+    right: 12px;
+    font-size: 20px;
+}
+
+.navbar ul li a {
+    color: black;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar {
+    display: none;
+}
+
+.burger-menu {
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+    width: 45px;
+    height: 45px;
+    font-size: 28px;
+    border-radius: 5px;
+}

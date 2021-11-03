@@ -1,0 +1,21 @@
+@media (min-width: 1200px) {
+    .product-wrapper {
+        width: 25%;
+    }
+
+    .product .product-content .description {
+        display: none;
+    }
+
+    .product:hover .product-content .description {
+        display: block;
+    }
+
+    .product .truck-icon {
+        transition: transform 0.5s;
+    }
+
+    .product:hover .truck-icon {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,11 @@
+@media (min-width: 480px) {
+    .top-nav {
+        flex-wrap: nowrap;
+    }
+    .navbar {
+        display: block;
+    }
+    .burger-menu {
+        display: none;
+    }
+}
