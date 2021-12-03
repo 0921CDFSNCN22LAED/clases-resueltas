@@ -1,0 +1,43 @@
+El usuario ingresó a la pagina: /
+El usuario ingresó a la pagina: /
+El usuario ingresó a la pagina: /cats
+El usuario ingresó a la pagina: /cats
+El usuario ingresó a la pagina: /
+El usuario ingresó a la pagina: /
+El usuario ingresó a la pagina: /
+El usuario ingresó a la pagina: /favicon.ico
+El usuario ingresó a la pagina: /cats
+El usuario ingresó a la pagina: /cats
+El usuario ingresó a la pagina: /favicon.ico
+El usuario ingresó a la pagina: /cats
+El usuario ingresó a la pagina: /css/styles.css
+El usuario ingresó a la pagina: /cats
+El usuario ingresó a la pagina: /css/styles.css
+El usuario ingresó a la pagina: /cats
+El usuario ingresó a la pagina: /css/styles.css
+El usuario ingresó a la pagina: /favicon.ico
+El usuario ingresó a la pagina: /cats
+El usuario ingresó a la pagina: /css/styles.css
+El usuario ingresó a la pagina: /cats
+El usuario ingresó a la pagina: /css/styles.css
+El usuario ingresó a la pagina: (200) /cats 
+El usuario ingresó a la pagina: (200) /css/styles.css 
+El usuario ingresó a la pagina: (200) /cats 
+El usuario ingresó a la pagina: (200) /css/styles.css 
+El usuario ingresó a la pagina: (200) /cats 
+El usuario ingresó a la pagina: (200) /css/styles.css 
+El usuario ingresó a la pagina: (200) /cats 
+El usuario ingresó a la pagina: (200) /css/styles.css 
+El usuario ingresó a la pagina: (200) /favicon.ico 
+El usuario ingresó a la pagina: (200) /frula 
+El usuario ingresó a la pagina: (200) / 
+El usuario ingresó a la pagina: (200) / 
+El usuario ingresó a la pagina: (200) /admin 
+El usuario ingresó a la pagina: (200) /admin?user=pepito 
+El usuario ingresó a la pagina: (200) /admin?user=pepito 
+El usuario ingresó a la pagina: (200) /admin?user=pepito 
+El usuario ingresó a la pagina: (200) /admin?user=pepito 
+El usuario ingresó a la pagina: (200) /admin?user=Ada 
+El usuario ingresó a la pagina: (200) /admin?user=cualquier%20frula 
+El usuario ingresó a la pagina: (200) /admin?user=Tim 
+El usuario ingresó a la pagina: (200) /admin?user=tim 
