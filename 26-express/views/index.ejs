@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <% if(userData){ %>
+    <p>Bienvenido <%= userData.name %></p>
+    <% }else{ %>
+    <p>Bienvenido Invitado</p>
+    <%} %>
+
+    <% if(locals.errors){ %>
+    <ul>
+        <% for(let error of errors) { %>
+        <li><%= error.msg %></li>
+        <% } %>
+    </ul>
+    <% } %>
+
+    <form action="/" method="POST">
+        <div>
+            <label for="name">Ingrese su nombre</label>
+            <input name="name" id="name" />
+        </div>
+        <div>
+            <label for="color">Elija su color</label>
+            <select name="color" id="color">
+                <option value="red">Rojo</option>
+                <option value="green">Verde</option>
+                <option value="blue">Azul</option>
+            </select>
+        </div>
+        <div>
+            <label for="email">Ingrese su email</label>
+            <input name="email" id="email" />
+        </div>
+        <div>
+            <label for="age">Ingrese su edad</label>
+            <input name="age" id="age" />
+        </div>
+        <button>Enviar!!</button>
+    </form>
+</body>
+
+</html>
