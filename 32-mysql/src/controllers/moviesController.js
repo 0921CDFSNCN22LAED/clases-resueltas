@@ -9,7 +9,7 @@ module.exports = {
       movies: movies,
     });
   },
-  detail: (req, res) => {
+  detail: async (req, res) => {
     const movie = await movieService.getOne(req.params.id);
     res.render("moviesDetail", {
       movie: movie,
