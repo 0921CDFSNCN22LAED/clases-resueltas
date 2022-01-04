@@ -1,22 +1,23 @@
 const db = require("../database/models");
+const movieService = require("../services/movie-service");
 
 module.exports = {
-  list: (req, res) => {
+  list: async (req, res) => {
     //Obtener todas las peliculas de la DB
-    const promise = db.Movie.findAll();
-    promise.then((movies) => {
-      res.render("moviesList", {
-        movies: movies,
-      });
+    const movies = await movieService.getAll();
+    res.render("moviesList", {
+      movies: movies,
     });
   },
   detail: (req, res) => {
-    //Obtener todas las peliculas de la DB
-    const promise = db.Movie.findByPk(req.params.id);
-    promise.then((movie) => {
-      res.render("moviesDetail", {
-        movie: movie,
-      });
+    const movie = await movieService.getOne(req.params.id);
+    res.render("moviesDetail", {
+      movie: movie,
     });
+  },
+
+  update: async (req, res) => {
+    const movie = await movieService.update(req.params.id, req.body);
+    res.redirect("/movies/detail/" + movie.id);
   },
 };
