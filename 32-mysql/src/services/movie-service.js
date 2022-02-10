@@ -7,6 +7,9 @@ module.exports = {
   getOne: (id) => {
     return Movie.findByPk(id);
   },
+  getOneByTitle: (title) => {
+    return Movie.findOne({ where: { title: title } });
+  },
 
   update: async (id, body) => {
     const movie = await Movie.findByPk(id);
